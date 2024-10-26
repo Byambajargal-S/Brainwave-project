@@ -379,8 +379,10 @@ body {
   border-radius: 8px;
   opacity: 0;
   cursor: pointer;
+  transition: opacity 0.3s ease;
 }
-.add-cart:hover {
+
+.explore-box-1-inner:hover .add-cart {
   opacity: 1;
 }
 .explore-bitmap-1 {

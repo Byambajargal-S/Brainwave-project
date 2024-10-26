@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  margin: 0;
+}
+a {
+  color: #161c2d;
+  text-decoration: none; /* Remove underline */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.logo {
+  font-family: "Rubik", sans-serif;
+  height: 28px;
+  width: 154px;
+  display: flex;
+  color: #161c2d;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.header-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  height: 26px;
+}
+.header-mid-menu {
+  display: flex;
+  color: #161c2d;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+}
+.header-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+.header-cart:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f7fa;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+.header-cart-icon {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  left: 8px;
+  bottom: 8px;
+  height: 30px;
+  width: 30px;
+}
+.header-cart-notif {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  top: 4px;
+  right: 3px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #68d585;
+}
+.header-cart-text {
+  display: flex;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 533px;
+  margin-bottom: 33px;
+}
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  height: 412px;
+  width: 1077px;
+  justify-content: center;
+  align-items: center;
+}
+.inner-1 {
+  display: flex;
+  width: 1077px;
+  gap: 65px;
+  justify-content: space-around;
+  margin-bottom: 108px;
+}
+.inner-menu-1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu-title {
+  color: #161c2d;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.footer-menu-items {
+  color: #161c2d;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.footer-menu-blue {
+  color: #473bf0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.inner-menu-2 {
+  display: flex;
+  flex-direction: column;
+}
+.inner-menu-3 {
+  display: flex;
+  flex-direction: column;
+}
+.inner-menu-4 {
+  display: flex;
+  flex-direction: column;
+}
+.inner-menu-5 {
+  display: flex;
+  flex-direction: column;
+}
+.inner-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+}
+.footer-copyrgiht {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+}
+.copyright-text-1 {
+  color: #161c2d;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+.green-heart {
+  width: 14px;
+  height: 12px;
+}
+.social {
+  display: flex;
+  width: 166px;
+  justify-content: end;
+  gap: 30px;
+  align-items: center;
+}
+
+.twitter {
+  width: 18px;
+  height: 15px;
+}
+.facebook {
+  width: 19px;
+  height: 19px;
+}
+.Main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f7fa;
+  width: 100vw;
+}
+.Contact-us-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact-us-title {
+  color: #161c2d;
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: 700;
+  margin-bottom: 44px;
+  margin-top: 81px;
+}
+
+.Contact-us-description {
+  text-align: center;
+  color: #161c2d;
+  font-size: 19px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 32px;
+  word-wrap: break-word;
+  margin-bottom: 61px;
+}
