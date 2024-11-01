@@ -240,3 +240,208 @@ a {
   word-wrap: break-word;
   margin-bottom: 61px;
 }
+
+/* Pricing */
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 520px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #e7e9ed;
+  background: #fff;
+  padding-top: 39px;
+  padding-left: 49px;
+  padding-bottom: 38px;
+}
+
+.Pricing-title {
+  color: #473bf0;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+  margin-bottom: 41px !important;
+}
+.pricing-price {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.pricing-price-1 {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+}
+.pricing-price-2 {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: -8px; /* Adjust the value as needed */
+  margin-bottom: -8px;
+}
+.pricing-price-3 {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.billed-monthly {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: -0.1px;
+  margin-bottom: 38px;
+}
+.list-1 {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.list-1-text {
+  display: flex;
+  align-items: center;
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 170.588% */
+  letter-spacing: -0.2px;
+}
+.list-gap-shaadag-psda {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 31px;
+}
+.Start-free-trial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 59px;
+  border-radius: 8px;
+  background: #f0effe;
+  gap: 37px;
+  margin-bottom: 12px;
+}
+.Start-free-trial-text {
+  color: #473bf0;
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 188.235% */
+  letter-spacing: -0.6px;
+}
+.No-credit-card {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: -0.1px;
+}
+.Prcing-section-main-container {
+  display: flex;
+  gap: 31px;
+  margin-bottom: 115px;
+}
+/* start free trial 49 */
+.Start-free-trial-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 59px;
+  border-radius: 8px;
+  background: #473bf0;
+  gap: 37px;
+  margin-bottom: 12px;
+}
+.Start-free-trial-text-1 {
+  color: #fff;
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 188.235% */
+  letter-spacing: -0.6px;
+}
+.Feature-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 73px;
+}
+.Feature-container-title {
+  color: #161c2d;
+  text-align: center;
+  font-family: Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.Feature-container-description {
+  color: #161c2d;
+  text-align: center;
+  font-family: Arial;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+}
+.Feature-small-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+}
+.Feature-small-container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Feature-small-container-1-title {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 152.381% */
+  letter-spacing: -0.5px;
+}
+.Feature-small-container-1-description {
+  color: #161c2d;
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 170.588% */
+  letter-spacing: -0.2px;
+}
+.feature-padding-top-5px {
+  display: flex;
+  margin-top: 5px;
+}
+.Freature-column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 71px;
+  margin-bottom: 141px;
+}
+.Freature-row-container-1 {
+  display: flex;
+  gap: 35px;
+}
